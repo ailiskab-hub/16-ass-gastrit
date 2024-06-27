@@ -11,6 +11,11 @@ Almost all the data are avilable in the folder ``` /data ```. Data of the health
 ### Raw data processing
 The raw ```fastq``` reads were processed using the DADA2 pipeline.
 
+Script can be launched using following command
+```r
+Rscript Dada2_scr.R -d Central   # for the central samples
+```
+
 ### Subsequent analysis
 Our hypotheses
 - H0: "There is no difference between samples obtained from different regions"
